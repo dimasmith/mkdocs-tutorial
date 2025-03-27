@@ -1,3 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://dimasmith.github.io/mkdocs-tutorial/</loc>
+         <lastmod>2025-03-27</lastmod>
+    </url>
+    <url>
+         <loc>https://dimasmith.github.io/mkdocs-tutorial/architecture/roadmap/</loc>
+         <lastmod>2025-03-27</lastmod>
+    </url>
+    <url>
+         <loc>https://dimasmith.github.io/mkdocs-tutorial/architecture/views/context-view/</loc>
+         <lastmod>2025-03-27</lastmod>
+    </url>
+    <url>
+         <loc>https://dimasmith.github.io/mkdocs-tutorial/architecture/views/example/</loc>
+         <lastmod>2025-03-27</lastmod>
+    </url>
+    <url>
+         <loc>https://dimasmith.github.io/mkdocs-tutorial/architecture/views/interaction/</loc>
+         <lastmod>2025-03-27</lastmod>
+    </url>
+    <url>
+         <loc>https://dimasmith.github.io/mkdocs-tutorial/architecture/views/views/</loc>
+         <lastmod>2025-03-27</lastmod>
+    </url>
 </urlset>
