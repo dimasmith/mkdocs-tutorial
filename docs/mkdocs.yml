@@ -19,6 +19,8 @@ theme:
 
 plugins:
   - search
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
 
 nav:
   - Architecture:
@@ -26,7 +28,7 @@ nav:
       - Views:
           - Catalog: architecture/views/views.md
           - System Context: architecture/views/context-view.md
-          - Interaction: architecture/views/interaction.md
+          - Diagrams: architecture/views/diagrams.md
           - Implementation: architecture/views/example.md
 markdown_extensions:
   - pymdownx.superfences:

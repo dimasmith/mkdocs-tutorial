@@ -10,5 +10,5 @@ This is a test project overview page.
 - [x] Create nested content structure
 - [x] Add mermaid diagrams
 - [x] Add code snippets
-- [ ] Add PlantUML diagrams
+- [x] Add PlantUML diagrams. Note that using snippets is [not supported yet](https://github.com/MikhailKravets/mkdocs_puml/issues/89).
 - [ ] Check other cool features

@@ -1,0 +1,12 @@
+
+@startuml C4_Context_Diagram
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+Person(user, "User", "A user of the system.")
+System(system, "System", "The system being modeled.")
+System_Ext(externalSystem, "External System", "An external system that interacts with the system.")
+
+Rel(user, system, "Uses")
+Rel(system, externalSystem, "Sends data to")
+
+@enduml
