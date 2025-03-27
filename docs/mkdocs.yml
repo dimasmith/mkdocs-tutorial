@@ -1,5 +1,8 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Test Documentation
+site_url: https://dimasmith.github.io/mkdocs-tutorial/
+repo_url: https://github.com/dimasmith/mkdocs-tutorial
+copyright: Copyright 2025 Dmytro Kovalchuk
 theme:
   name: material
   palette:
@@ -12,10 +15,19 @@ theme:
         icon: material/weather-night
         name: Switch to Dark Mode
 
+plugins:
+  - search
+
 nav:
-  - Overview: overview.md
   - Architecture:
       - Roadmap: architecture/roadmap.md
       - Views:
           - Catalog: architecture/views/views.md
           - System Context: architecture/views/context-view.md
+          - Interaction: architecture/views/interaction.md
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
