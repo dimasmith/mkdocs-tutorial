@@ -4,7 +4,7 @@ The system is implemented in Rust. Please implement common traits for your domai
 
 ## Example
 
-```rust title="src/domain/amount.rs"
+```rust title="src/domain/amount.rs" linenums="1"
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub struct Amount(f64);
 
