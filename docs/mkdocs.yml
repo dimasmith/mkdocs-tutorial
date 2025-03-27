@@ -25,6 +25,7 @@ nav:
           - Catalog: architecture/views/views.md
           - System Context: architecture/views/context-view.md
           - Interaction: architecture/views/interaction.md
+          - Implementation: architecture/views/example.md
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:

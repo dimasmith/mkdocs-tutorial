@@ -9,6 +9,6 @@ This is a test project overview page.
 - [x] Apply material theme
 - [x] Create nested content structure
 - [x] Add mermaid diagrams
-- [ ] Add code snippets
+- [x] Add code snippets
 - [ ] Add PlantUML diagrams
 - [ ] Check other cool features
