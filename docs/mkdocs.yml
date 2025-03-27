@@ -1,5 +1,21 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Test Documentation
-theme: material
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to Light Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to Dark Mode
 
 nav:
   - Overview: overview.md
+  - Architecture:
+      - Roadmap: architecture/roadmap.md
+      - Views:
+          - Catalog: architecture/views/views.md
+          - System Context: architecture/views/context-view.md
