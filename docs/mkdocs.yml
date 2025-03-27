@@ -32,6 +32,7 @@ nav:
           - Implementation: architecture/views/example.md
 markdown_extensions:
   - admonition
+  - def_list
   - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
@@ -44,3 +45,5 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
