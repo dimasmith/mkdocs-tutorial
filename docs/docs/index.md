@@ -11,4 +11,4 @@ This is a test project overview page.
 - [x] Add mermaid diagrams
 - [x] Add code snippets
 - [x] Add PlantUML diagrams. Note that using snippets is [not supported yet](https://github.com/MikhailKravets/mkdocs_puml/issues/89).
-- [ ] Check other cool features
+- [x] Check other cool features

@@ -16,6 +16,8 @@ theme:
         name: Switch to Dark Mode
   features:
     - content.code.copy
+  icon:
+    annotation: material/plus-circle
 
 plugins:
   - search
@@ -31,8 +33,10 @@ nav:
           - Diagrams: architecture/views/diagrams.md
           - Implementation: architecture/views/example.md
 markdown_extensions:
+  - attr_list
   - admonition
   - def_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
@@ -47,3 +51,6 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
