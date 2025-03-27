@@ -31,6 +31,8 @@ nav:
           - Diagrams: architecture/views/diagrams.md
           - Implementation: architecture/views/example.md
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
